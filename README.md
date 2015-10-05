@@ -71,3 +71,27 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+### Instructions to run the App
+
+1. Clone the project from github
+
+2. To install the app, NPM is required. Make sure NPM is installed in the computer.
+
+3. Run npm install from the project root dir
+
+4. After successful app install, run grunt from the root dir
+
+5. Once grunt is successfully run, the app can be accessed by starting a http-server at the root dir. 
+
+6. Remember the root folder contains the minified and compressed resources. If one wants to see the unminified files, it is available in source dir.
+
+### Documentation on the changes made to the pizza app 
+
+1. main.js is modified to get 60FPS or more performance.
+
+2. The for loops are modified to remove forced synchronized layouts
+
+3. The routine to resize pizzas is optimized for better performance
+
+4. Reduced the number of mooving pizza to 24 from 200.
