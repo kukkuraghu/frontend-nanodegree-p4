@@ -94,4 +94,8 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 
 3. The routine to resize pizzas is optimized for better performance
 
-4. Reduced the number of mooving pizza to 24 from 200.
+4. The number of moving pizzas is calculated dynamically based on the screen height.
+
+5. On the index.html, a scaled down version of the "pizzeria.jpg" is used.
+
+6. For loops are modified for optimization (see inline comments).
